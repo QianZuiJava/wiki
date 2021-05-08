@@ -1,0 +1,10 @@
+提交时报433
+$ git config --global --unset http.proxy
+$ git config --global --unset https.proxy
+$ env GIT_SSL_NO_VERIFY=true
+
+克隆是401
+登录GitHub，点击右上角头像Settings
+接着点击Developer settions
+点击Personal access tokens
+Personal access tokens ,New personal access token
